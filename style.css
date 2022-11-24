@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 5px 5px 5px 0 ;
+}
+
+h2{
+    font-weight: 700;
+    font-size:18px;
+    padding: 10px;
+}
+
+h3{
+    font-weight: 700;
+    font-size:18px;
+}
+
+h4{
+    font-weight: 700;
+    font-size:16px;
+    padding: 5px 0 0 5px;
+}
+
+/*/////////////////*/
+
+header{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.logo{
+    height: 19px;
+    padding-top: 40px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+   padding: 40px;
+   border: solid 0.2em white;
+}
+
+li:hover{
+    color: blue;
+    border-top-color: blue;
+}
+
+/*//////// SEARCH /////////*/
+
+.search{
+}
+ 
+.search-bar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 75px;
+    /*background-color: red;*/
+
+}
+
+.point-box{
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.point{
+}
+
+#site-search{
+    border: 1px solid #F2F2F2;
+    font-weight: 700;
+    font-size:18px;
+    height: 52px;
+}
+
+.btn-search{
+    color: white;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+/*//////// FILTER /////////*/
+
+.filter{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+   /* background-color: aquamarine;*/
+    width: 70%;
+
+}
+
+.btn-filter{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.btn-filter:hover{
+    background: #DEEBFF;
+}
+
+.btn-icon{
+    color: #0065FC;
+    padding-right: 10px;
+}
+
+.btn-element{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+}
+
+/*//////// CONTAINER PRINCIPAL /////////*/
+
+.principal-container{
+    background-color: ;
+    display: flex;
+}
+
+.first-container{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex: 2 ;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.second-container{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex: 1;
+    padding: 20px;
+}
+
+/*//////// ACCOMODATION /////////*/
+
+.container-card-accomodation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-accomodation{
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid #FFFFFF;
+
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+
+.container-star{
+    display: flex ;
+    color: #0065FC;
+}
+
+.image-accomodation{
+    width : 100%; height : auto;
+    border-radius: 20px 20px 0 0;
+}
+
+/*//////// POPULAR /////////*/
+.container-card-popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.card-popular{
+    display: flex ;
+    background-color: white;
+    border-radius: 20px;
+    height: 27% ;
+}
+
+.image-popular{
+    width: 33%;
+    object-fit: cover;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.popular-description{
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column;
+}
+
+.container-star-popular{
+    display: flex ;
+    color: #0065FC;
+    margin-top: auto;
+}
+
+.title-popular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-chart-line{
+    color: blue;
+}
+
+
+/*//////// ACTIVITY /////////*/
+
+.activity-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-activity{
+    width: 20%;
+    height: 450px ;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.image-activity{
+    object-fit: cover;
+    height: 410px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+/*//////// FOOTER /////////*/
+
+footer{
+    margin-top: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.container-footer{
+    width: 25%;
+}
+
+.footer-menu{
+    padding: 10px;
+}
+
